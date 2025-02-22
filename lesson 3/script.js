@@ -130,5 +130,5 @@ const stockOHLC = {
 if (stockOHLC.open > stockOHLC.close) {
     console.log('stock is bearish')
 } else {
-    console.log('stock is bullish')
+    console.log('stock')
 }
