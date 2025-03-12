@@ -1,0 +1,1 @@
+for in is for objects, for of is for arrays
