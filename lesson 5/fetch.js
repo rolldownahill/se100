@@ -14,12 +14,10 @@ fetch('https://api.data.gov.sg/v1/environment/2-hour-weather-forecast')
   // obtain body from response object
   .then (data => data.json())
   .then (body => {
-
     const annualEarnings = body['annualEarnings']
-    for (let i - 0; i< annualEarnings.lenth; i++){
+    for (let i = 0; i< annualEarnings.length; i++){
       const current = annualEarnings[i]
       if (current['fiscalDateEnding'].includes('2020')){
-
         console.log(current['reportedEPS'])
         return
       }
